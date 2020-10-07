@@ -15,7 +15,5 @@ Project structure:
 Ignite ships with CacheJdbcPojoStore, which is out-of-the-box JDBC implementation of the IgniteCacheStore 
 interface, and automatically handles all the write-through and read-through logic.
 
-You can use generated configuration and POJO classes as part of your application.
 
-Note, in case of using proprietary JDBC drivers (Oracle, IBM DB2)
-you should download them manually and copy into ./jdbc-drivers folder.
+you should download postgres jdbc jar manually and copy into ./jdbc-drivers folder.
